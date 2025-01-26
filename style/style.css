@@ -1,0 +1,167 @@
+*{
+
+}
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+.main{
+    width: 800px;
+    height: 800pxpx;
+    background-color: rgb(0, 125, 83);
+    margin: 0 auto;
+}
+
+.left-block {
+    width: 390px;
+    height: 400px;
+    float: left;
+    padding: 200px 40px;
+}
+
+.right-block {
+    width: 330px;
+    height: 800px;
+    float: right;
+}
+
+.google-button, .facebook-button, .git-button {
+    width: 100%;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: 22% 8px;
+    background-size: 30px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 6px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.google-button {
+    background-image: url(../images/Logo-google-icon-PNG.png);
+    background-color: white;
+    border: 1px solid lightslategray;
+}
+
+.facebook-button {
+    background-image: url(../images/icons8-facebook-64.png);
+    background-color: rgb(32, 93, 139);
+    border: 1px solid rgb(32, 93, 139);
+    color: white;
+}
+
+.git-button {
+    background-image: url(../images/github.png);
+    background-color: rgb(41, 41, 41);
+    border: 1px solid rgb(41, 41, 41);
+    color: white;
+}
+
+
+.form-block {
+    margin-top: 18px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 83%;
+    height: 570px;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px 3px grey;
+}
+
+
+
+.title-field {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.params-field {
+    width: 260px;
+    height: 25px;
+    border-radius: 8px;
+    border: 2px solid grey;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+
+#password_click{
+    margin-bottom: 2px;
+}
+
+.params-field:focus{
+    outline: 0.5px solid grey;
+} 
+
+.text-under {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 12px;
+    line-height: 0.5px;
+}
+
+.recapcha {
+    width: 100px;
+	height: 100px;
+    border-radius: 8px;
+    border: 2px solid gray;
+    background-color: lightgrey;
+    margin-top: 20px;
+    padding: 10px 80px;
+}
+
+.recapcha > img {
+    width: 110px;
+    margin: 0 auto;
+}
+
+
+.content {
+    display: flex;
+    margin-top: 16px;
+}
+
+.Sing-up {
+    width: 270px;
+    height: 32px;
+    margin-top: 24px;
+    border-radius: 8px;
+    background-color: rgb(12, 145, 217);
+    color: white;
+    border: 1px solid rgb(12, 145, 217);
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin-bottom: 18px;
+}
+
+.Sing-up:hover {
+    background-color: white;
+    color: black;
+}
+
+.link-text {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.reason {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+    
+}
+
+.reason > img {
+    margin-right: 12px;
+}
+
+.reason > span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.left-block > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
